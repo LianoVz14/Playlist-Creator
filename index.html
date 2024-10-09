@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/playlist.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <title>My Playlist App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>My Playlists</h1>
+        <div id="playlistContainer" class="playlist-container">
+            <button id="addPlaylistBtn" class="add-button">
+                <img class="add-icon" src="https://cdn-icons-png.flaticon.com/512/875/875068.png" alt="Add Playlist">
+            </button>
+            <!-- Playlists will be added here -->
+        </div>
+    </div>
+
+    <!-- Popup for adding new playlists -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <h2>Create New Playlist</h2>
+            <input type="text" id="playlistName" placeholder="Enter playlist name">
+            <div class="popup-buttons">
+                <button id="createPlaylistBtn">Create Playlist</button>
+                <button id="closePopupBtn">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/rename.js"></script>
+</body>
+</html>

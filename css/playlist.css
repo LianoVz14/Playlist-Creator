@@ -1,0 +1,69 @@
+/* Playlist container styles */
+.playlist {
+    background: linear-gradient(135deg, #1f1f1f, #3a3a3a);
+    border-radius: 10px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-sizing: border-box;
+    text-align: center;
+    animation: fadeIn 0.5s ease forwards; /* Apply the fade-in animation */
+}
+
+.playlist:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
+}
+
+.playlist h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #e0e0e0;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+/* Add button styles */
+.add-button {
+    background-color: rgba(255, 152, 0, 0.2);
+    color: white;
+    border: none;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    grid-column: 1; /* Station the add button in the first column */
+    grid-row: 1; /* Ensure it occupies the first row */
+}
+
+.add-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.add-button:hover {
+    background-color: rgba(251, 140, 0, 0.3);
+}
+
+/* Animation styles for the playlist */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8); /* Start small */
+    }
+    to {
+        opacity: 1;
+        transform: scale(1); /* Scale to normal size */
+    }
+}

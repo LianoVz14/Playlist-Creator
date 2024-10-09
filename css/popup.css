@@ -1,0 +1,72 @@
+/* Popup styling */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    max-width: 90%;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+    display: none;
+    animation: fadeIn 0.4s ease-in-out forwards;
+}
+
+.popup-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.popup h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffcc00;
+}
+
+.popup input {
+    width: 100;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #444;
+    color: #fff;
+}
+
+.popup input:focus {
+    outline: 2px solid #ff9800;
+}
+
+.popup-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.popup-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#createPlaylistBtn {
+    background-color: #ff9800;
+    color: #fff;
+}
+
+#closePopupBtn {
+    background-color: #555;
+    color: #fff;
+}
+
+#closePopupBtn:hover {
+    background-color: #777;
+}
+
+#createPlaylistBtn:hover {
+    background-color: #e68900;
+}
