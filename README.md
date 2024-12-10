@@ -1,13 +1,15 @@
-Welcome to the Playlist Creator!  
-The website is now live and accessible at: [https://lianovz14.github.io/Playlist-Creator/](https://lianovz14.github.io/Playlist-Creator/)
+# Playlist Creator
 
-## 🚧 **Under Development**
+Welcome to the **Playlist Creator**! The website is live and accessible at:  
+[Playlist Creator - Live Demo](https://lianovz14.github.io/Playlist-Creator/)
 
-Please note that the website is still a work in progress. Features are being added, and improvements are ongoing.
+## 🚧 Under Development
+
+The website is currently a work in progress. Features are being added, and improvements are ongoing.
 
 ## How to Use
 
-1. Go to [https://lianovz14.github.io/Playlist-Creator/](https://lianovz14.github.io/Playlist-Creator/).
-2. Click the **+ button** to create a new playlist.
+1. Visit [Playlist Creator Website](https://lianovz14.github.io/Playlist-Creator/).
+2. Click the **+ Button** to create a new playlist.
 
-Thank you for checking out the Playlist Creator!
+Thank you for using the Playlist Creator!
